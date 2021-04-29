@@ -28,3 +28,17 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 1.2; 
 }
+
+/*input:invalid{
+  border: 2px solid #e4a4ac;
+}
+
+textarea:invalid {
+  border: 2px solid #e4a4ac;
+}
+
+:invalid {
+  box-shadow: none;
+}*/
+
+

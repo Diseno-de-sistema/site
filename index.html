@@ -13,6 +13,97 @@
     <!-- BODY-->
     <body>
         <h1 class="text-center mt-5 display-4">Diseño de Sistema - Grupo 3</h1>
-        
+        <section id=formulario style="background:rgb(165, 163, 163) ;">
+            <div class="container">
+                    
+                    <form action="" style="padding: 10%;background: #fff;">
+                        <div class="row">
+                            <!--Titulo-->
+                            <div class="col-md-12 text-center" style="margin: 7% 0;border-bottom: 1px solid rgb(165, 163, 163)">
+                                <label style="font-size: 3vw;">IT Service Request</label>
+                            </div>
+
+                            <!-- Nombre y Apellido-->
+                            <div class="form-group col-md-3">
+                                <label for="nombre" > Nombre y Apellido</label>
+                            </div>
+                            <div class="form-group col-md-9" >
+                                 <input type="text" id="nombre" class="form-control" required>
+                            </div>   
+
+                            <!-- Departamento -->
+                            <div class="form-group col-md-3" >
+                                <label for="departamento" > Departamento</label>
+                            </div>
+                            <div class="form-group col-md-9" >
+                                 <input type="text" id="departamento" class="form-control" required> 
+                            </div>
+
+                            <!--Oficina-->
+                            <div class="form-group col-md-3">
+                                <label for="oficina" > Oficina</label>
+                            </div>
+                            <div class="form-group col-md-9" >
+                                 <input type="text" id="oficina" class="form-control" required>
+                            </div>   
+
+                            <!--Email-->
+                            <div class="form-group col-md-3">
+                                <label for="mail" > E-mail</label>
+                            </div>
+                            <div class="form-group col-md-9" >
+                                 <input type="email" id="mail" placeholder="ex: myname@example.com" class="form-control" required>
+                                <small class="form-text text-muted">example@example.com</small>
+                            </div>   
+                            
+                            <!--Tipo de Problema-->
+                            <div class="form-group col-md-3" >
+                                <label for="tipo-de-problema" > Tipo de Problema</label>
+                            </div>
+                            <div class="form-group col-md-9" >
+                                 <label for="tipo-de-problema" class="form-check-label required" style="margin-left: 1.25rem;" >
+                                     <input type="checkbox" value="equipo" class="form-check-input"  > Equipo
+                                     <br>
+                                     <input type="checkbox" value="email" class="form-check-input" > Email
+                                     <br>
+                                     <input type="checkbox" value="redes" class="form-check-input" > Redes
+                                     <br>
+                                     <input type="checkbox" value="telefono" class="form-check-input"> Telefono
+                                     <br>
+                                     <input type="checkbox" value="otro" class="form-check-input" > Otro
+                                 </label>
+                            </div>   
+
+                            <!-- Especificar Problema-->
+                            <div class="form-group col-md-3">
+                                <label for="especificar-problema" > Especificar Problema</label>
+                            </div>
+                            <div class="form-group col-md-9" >
+                                <textarea name="especificar-problema" id="especificar-problema" cols="49.5" placeholder="Type here.." rows="10" required></textarea> 
+                                
+                            </div>   
+
+                            <!-- Comentarios y Preguntas -->
+                            <div class="form-group col-md-3">
+                                <label for="comentarios-preguntas" > Comentarios y Preguntas</label>
+                            </div>
+                            <div class="form-group col-md-9" >
+                                <textarea name="comentarios-preguntas" id="comentarios-preguntas" cols="49.5" placeholder="Type here.." rows="10"></textarea> 
+                                
+                            </div>    
+
+                            <div class="col-md-12" style="border-bottom: 1px solid rgb(165, 163, 163); margin: 5% 0;"></div>
+                            <!-- Boton Enviar -->
+                            <div class="col-md-12" style="text-align: center;">
+                                <input type="submit" value="Enviar" class="btn" style="width: 20%;height: 54px;background: #549168;color: #fff; border:none"/>
+                            </div>
+                            
+                            
+                        </div>
+                    </form>
+
+            </div>
+        </section>
+       
     </body>
 </html>
